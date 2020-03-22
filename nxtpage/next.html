@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorbike Color Changer</title>
+    <link rel="stylesheet" href="../css/next.css">
+
+</head>
+<body class="body">
+    <div class="content">
+        <div>
+            <h1 class="title">Motorbike Color Changer</h1>
+            <img class="motor" src="../img/motor.png" alt="">
+
+            <div class="generates">
+                <br>
+                <h2 class="gen1">Generate Random Color</h2>
+            </div>
+            <div class="button">
+                <button id="genColor" onclick="Generate()">Generate
+                </button>
+                <h2 class="gen2">Generate Specific Color</h2>
+                <label for="kulay"></label>
+                <select name="" id="color">
+                    <option class="blue" value="blue">Blue</option>
+                    <option class="grey" value="grey">Grey</option>
+                    <option class="green" value="green">Green</option>
+                    <option class="yellow" value="yellow">Yellow</option>
+                    <option class="lightblue" value="lightblue">Lightblue</option>
+                    <option class="black" value="black">Black</option>
+                    <option class="purple" value="purple">Purple</option>
+                    <option class="lawngreen" value="lawngreen">Lawngreen</option>
+                </select>
+
+                <div class="buttons">
+                    <button class="shows" onclick ="Show()">SHOW</button>
+                    <button class="resets" onclick ="Reset()">RESET</button>
+                </div>
+            </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#ninja{
+    height: 20rem;
+    width: 36rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.btn{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+    background-color: grey;
+    color:black;
+    margin-left: 14rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:#6882AD;
+   
+    color: white;
+    text-decoration: none;
+}
+.body{
+    background-image: url(../img/2020-kawasaki-ninja-650.jpg);
+    background-size: cover;
+}
+.nn{
+    outline: none;
+    display: inline-block;
+}
